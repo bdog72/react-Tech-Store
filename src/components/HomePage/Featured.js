@@ -13,7 +13,7 @@ export default function Featured() {
     <section className="py-5">
       <div className="container">
         <Title title="featured products" center />
-        <div className="row">
+        <div className="row my-5">
           <ProductConsumer>
             {value => {
               const { featuredProducts } = value;
@@ -22,11 +22,13 @@ export default function Featured() {
                 <Product key={product.id} product={product}></Product>
               ));
             }}
-          </ProductConsumer> 
+          </ProductConsumer>
         </div>
         <div className="row mt-5">
           <div className="col text-center">
-            <Link to='/products' className='main-link'>our products</Link>
+            <Link to="/products" className="main-link">
+              our products
+            </Link>
           </div>
         </div>
       </div>
