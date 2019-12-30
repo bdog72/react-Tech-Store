@@ -5,7 +5,7 @@ import { socialData } from './socialData';
 import { items } from './productData';
 
 const ProductContext = React.createContext();
-
+ 
 class ProductProvider extends Component {
   state = {
     sidebarOpen: false,

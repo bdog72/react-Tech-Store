@@ -1,11 +1,11 @@
 //
 //
 import React from 'react';
-
+import {FaTrash,FaChevronCircleUp} from 'react-icons/fa'
 export default function CartItem() {
   return (
     <>
-      <h1>Cart Item</h1>
+      <p>Cart Item</p>
     </>
   );
 }
