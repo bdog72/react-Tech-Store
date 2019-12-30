@@ -48,3 +48,7 @@ body {
   text-decoration: none;
   outline-color: var(--darkGrey);
 }
+
+.cart-icon {
+  cursor: pointer;
+}
